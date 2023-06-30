@@ -97,6 +97,10 @@ ul {
   list-style: none;
 }
 
+ul.lists {
+  list-style: circle;
+}
+
 section {
   background-color: var(--white-alpha-25);
   border: 1px solid var(--white-alpha-40);
