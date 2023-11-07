@@ -121,7 +121,7 @@ section.fade-out {
 
 
 .main {
-  max-width: 1200px;
+  max-width: 1700px;
   margin: auto;
   transition: all 0.5s ease-in-out;
   position: relative;
@@ -269,6 +269,63 @@ button {
   }
 }
 
+/* ------background circles -------*/
+.bg-circles {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  max-width: 1200px;
+  width: calc(100% - 30px);
+  left: 50%;
+  transform: translateX(-50%);
+  /* z-index: 1; */
+}
+
+.bg-circles div {
+  position: absolute;
+  border-radius: 50%;
+
+}
+
+.bg-circles .circle-1 {
+  height: 110px;
+  width: 110px;
+  background-color: var(--pink);
+  left: 5%;
+  top: 10%;
+  /* opacity: 0.3; */
+  animation: zoomInOut 8s linear infinite;
+}
+
+
+.bg-circles .circle-2 {
+  height: 150px;
+  width: 150px;
+  background-color: var(--orange);
+  right: 600px;
+  top: 50%;
+  opacity: 0.6;
+  animation: bounceTop 5s ease-in-out infinite;
+}
+
+.bg-circles .circle-3 {
+  height: 200px;
+  width: 200px;
+  background-color: var(--green);
+  top: 40%;
+  right: -60px;
+  opacity: 0.6;
+}
+
+.bg-circles .circle-4 {
+  height: 100px;
+  width: 100px;
+  background-color: var(--green-yellow);
+  top: 80%;
+  left: -30px;
+  opacity: 0.6;
+}
+/* ------background circles -------*/
 
 /* ------------------------------------------------------
                         START header
