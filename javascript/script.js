@@ -82,3 +82,4 @@ function portfolioItemDetails(portfolioItem){
   document.querySelector(".pp-body").innerHTML =
   portfolioItem.querySelector(".portfolio-item-details").innerHTML;
 }
+
