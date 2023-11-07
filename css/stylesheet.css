@@ -18,6 +18,9 @@ Variables
   --pink-light: #FEDAB8;
   --cyan-light: #F8B593;
   --white: #ffffff;
+  --orange: #C795FA;
+  --pink: #FF9292;
+  --green: #FF7A00;
   --white-alpha-40: rgba(255, 255, 255, 0.40);
   --white-alpha-25: rgba(255, 255, 255, 0.25);
   --backdrop-filter-blur: blur(5px);
@@ -170,6 +173,9 @@ section.fade-out {
 
 
 .section-title h2 {
+  font-family: 'Montserrat' sans-serif;
+  color: #ffffff
+  float: left;
   font-size: 40px;
   text-transform: capitalize;
 }
@@ -250,24 +256,6 @@ button {
   color: var(--white);
 }
 
-/* Animation keyframes*/
-@keyframes fadeIn {
-  0%{
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  0%{
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 
 /* Animation keyframes*/
 @keyframes fadeIn {
@@ -364,6 +352,7 @@ button {
   opacity: 0.6;
 }
 /* ------background circles -------*/
+
 
 /* ------------------------------------------------------
                         START header
@@ -601,6 +590,7 @@ button {
 /* ----------------------------------------------------
                     START About section
 ------------------------------------------------------*/
+
 .colour_box {
   max-width: 100%;
   height: auto;
@@ -651,7 +641,6 @@ button {
   position: absolute;
   text-align: left;
 }
-
 
 
 /* ------------------------------
